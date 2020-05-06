@@ -10,13 +10,16 @@ export default function Navbar() {
       <BootstrapNav.Toggle aria-controls="responsive-navbar-nav" />
       <BootstrapNav.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <LinkContainer to="/about">
+          <LinkContainer exact to="/">
+            <Nav.Link>Home</Nav.Link>
+          </LinkContainer>
+          <LinkContainer exact to="/about">
             <Nav.Link>About</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/team">
+          <LinkContainer exact to="/team">
             <Nav.Link>Team</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/contact">
+          <LinkContainer exact to="/contact">
             <Nav.Link>Contact us</Nav.Link>
           </LinkContainer>
         </Nav>

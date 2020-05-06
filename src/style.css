@@ -1,0 +1,18 @@
+.anchor-reset {
+  color: initial;
+}
+
+.anchor-reset:hover {
+  text-decoration: none;
+}
+
+.contact-icon {
+  height: 80px;
+  width: auto;
+}
+
+@media(max-width: 768px) {
+  .contact-icon {
+    height: 60px;
+  }
+}
