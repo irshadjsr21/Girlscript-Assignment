@@ -12,7 +12,7 @@ export default function Contact() {
         odit.
       </p>
       <Container fluid="sm">
-        <Row >
+        <Row>
           <Col className="mb-4" xs={12} sm={6} md={4}>
             <a
               className="d-flex justify-content-center align-items-center flex-column text-center anchor-reset"
@@ -34,13 +34,12 @@ export default function Contact() {
           </Col>
 
           <Col className="mb-4" xs={12} sm={12} md={4}>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
               className="d-flex justify-content-center align-items-center flex-column text-center anchor-reset"
               href="#"
             >
-              <MdLocationOn
-                className="contact-icon"
-              ></MdLocationOn>
+              <MdLocationOn className="contact-icon"></MdLocationOn>
               <div>
                 80 Broad Street 4th Floor New York, NY 10004 Phone: 212.633.1405
               </div>
